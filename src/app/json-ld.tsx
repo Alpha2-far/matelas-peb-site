@@ -18,10 +18,8 @@ export default function JsonLd() {
       contactType: "customer service",
       availableLanguage: ["French"],
     },
-    sameAs: [
-      "https://facebook.com/matelaspeb",
-      "https://instagram.com/matelaspeb",
-    ],
+    sameAs: [],
+    telephone: "+229-67-61-18-44,+229-01-66-20-01-20",
   };
 
   const localBusinessSchema = {

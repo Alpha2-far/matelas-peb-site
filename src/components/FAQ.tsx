@@ -87,14 +87,24 @@ export default function FAQ() {
 
         <div className="mt-12 text-center">
           <p className="text-gray-600 mb-4">Vous avez d'autres questions ?</p>
-          <a
-            href="https://wa.me/22967611844"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-full font-medium hover:bg-green-700 transition-colors"
-          >
-            Contactez-nous sur WhatsApp
-          </a>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <a
+              href="https://wa.me/22967611844"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-full font-medium hover:bg-green-700 transition-colors"
+            >
+              WhatsApp: +229 67 61 18 44
+            </a>
+            <a
+              href="https://wa.me/2290166200120"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-full font-medium hover:bg-green-700 transition-colors"
+            >
+              WhatsApp: +229 01 66 20 01 20
+            </a>
+          </div>
         </div>
       </div>
     </section>

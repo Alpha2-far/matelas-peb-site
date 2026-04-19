@@ -21,7 +21,7 @@ export default function CGVPage() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose prose-lg">
             <h2>1. Commandes</h2>
             <p>
-              Les commandes peuvent être passées par WhatsApp au +229 67 61 18 44 ou par
+              Les commandes peuvent être passées par WhatsApp au +229 67 61 18 44, au +229 01 66 20 01 20 ou par
 téléphone au +229 01 67 61 18 44. Une commande est ferme après confirmation par
 notre équipe.
             </p>
