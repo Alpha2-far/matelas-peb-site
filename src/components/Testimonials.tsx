@@ -110,7 +110,7 @@ export default function Testimonials() {
   };
 
   return (
-    <section className="py-24 bg-indigo-50/50 overflow-hidden">
+    <section className="py-16 sm:py-24 bg-indigo-50/50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-indigo-600 font-semibold tracking-wide uppercase">Témoignages</span>
@@ -179,17 +179,17 @@ export default function Testimonials() {
             {/* Navigation Arrows */}
             <button
               onClick={() => paginate(-1)}
-              className="absolute -left-4 sm:-left-16 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white text-indigo-600 shadow-xl border border-gray-100 hover:bg-indigo-600 hover:text-white transition-all z-10 active:scale-90"
+              className="absolute -left-2 sm:-left-16 top-1/2 -translate-y-1/2 p-2.5 sm:p-3 rounded-full bg-white text-indigo-600 shadow-xl border border-gray-100 hover:bg-indigo-600 hover:text-white transition-all z-10 active:scale-90"
               aria-label="Témoignage précédent"
             >
-              <ChevronLeft className="w-6 h-6" />
+              <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>
             <button
               onClick={() => paginate(1)}
-              className="absolute -right-4 sm:-right-16 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white text-indigo-600 shadow-xl border border-gray-100 hover:bg-indigo-600 hover:text-white transition-all z-10 active:scale-90"
+              className="absolute -right-2 sm:-right-16 top-1/2 -translate-y-1/2 p-2.5 sm:p-3 rounded-full bg-white text-indigo-600 shadow-xl border border-gray-100 hover:bg-indigo-600 hover:text-white transition-all z-10 active:scale-90"
               aria-label="Témoignage suivant"
             >
-              <ChevronRight className="w-6 h-6" />
+              <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>
           </div>
 

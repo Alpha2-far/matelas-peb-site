@@ -24,7 +24,7 @@ const RefreshIcon = () => (
 
 export default function CTA() {
   return (
-    <section className="py-20 bg-indigo-900 relative overflow-hidden">
+    <section className="py-12 sm:py-20 bg-indigo-900 relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-full h-full"

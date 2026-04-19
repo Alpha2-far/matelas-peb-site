@@ -23,22 +23,22 @@ export default function Hero() {
       </div>
 
       {/* Hero Content - Centered */}
-      <div className="relative z-20 h-full flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+      <div className="relative z-20 h-full flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto py-20 sm:py-0">
         <div className={`transition-all duration-700 ease-out ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-          <span className="text-indigo-300 font-semibold tracking-widest uppercase mb-4 block">
+          <span className="text-indigo-300 font-semibold tracking-widest uppercase mb-3 sm:mb-4 block text-xs sm:text-sm">
             Votre partenaire confort au Bénin
           </span>
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
+          <h1 className="text-3xl min-[400px]:text-4xl sm:text-5xl lg:text-7xl font-bold text-white leading-tight mb-6">
             Des matelas premium pour votre bien-être
           </h1>
         </div>
 
         <div className={`transition-all duration-700 delay-300 ease-out ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-          <p className="text-lg sm:text-xl text-white/90 mb-10 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg lg:text-xl text-white/90 mb-8 sm:mb-10 max-w-2xl mx-auto">
             Livraison gratuite à Cotonou, Porto-Novo et partout au Bénin.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center w-full max-w-xs sm:max-w-none mx-auto">
             <Link
               href="/produits"
               className="bg-indigo-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-indigo-700 transition-colors shadow-lg"

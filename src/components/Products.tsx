@@ -51,7 +51,7 @@ export default function Products({ showTitle = true }: ProductsProps) {
   if (!showTitle) return null;
 
   return (
-    <section className="py-24 bg-white" id="produits">
+    <section className="py-16 sm:py-24 bg-white" id="produits">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           

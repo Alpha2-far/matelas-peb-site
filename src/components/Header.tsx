@@ -29,8 +29,8 @@ export default function Header() {
   const headerStyles = isScrolled
     ? "bg-white/90 backdrop-blur-md border-b border-gray-100 shadow-sm py-3"
     : isHomePage
-    ? "bg-transparent border-transparent py-5"
-    : "bg-white border-b border-gray-100 py-5";
+    ? "bg-transparent border-transparent py-3 sm:py-5"
+    : "bg-white border-b border-gray-100 py-3 sm:py-5";
 
   const textColor = isScrolled || !isHomePage
     ? "text-gray-900"
