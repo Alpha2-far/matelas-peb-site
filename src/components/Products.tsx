@@ -3,39 +3,21 @@ import Link from "next/link";
 const products = [
   {
     id: 1,
-    name: "Matelas PEB 1 place",
-    description: "Confort exceptionnel pour une nuit de sommeil paisible. Matelas PEB une place, parfait pour tous.",
-    slug: "matelas-1-place",
-  },
-  {
-    id: 2,
-    name: "Matelas PEB 2 places",
-    description: "Duo parfait pour des nuits douces. Matelas PEB deux places, pour un sommeil réparateur.",
-    slug: "matelas-2-places",
-  },
-  {
-    id: 3,
-    name: "Matelas PEB 3 places",
-    description: "Confort pour toute la famille. Matelas PEB trois places, pour des nuits paisibles et revitalisantes.",
-    slug: "matelas-3-places",
-  },
-  {
-    id: 5,
     name: "Matelas PEB Super Ordinaire",
-    description: "Confort de qualité exceptionnelle. Matelas PEB Super Ordinaire, pour des nuits paisibles et reposantes.",
+    description: "Confort de qualité exceptionnelle. Épaisseur 15cm et 20cm disponibles. À partir de 48.500 FCFA.",
     slug: "matelas-super-ordinaire",
   },
   {
-    id: 4,
-    name: "Matelas PEB Semi Dur",
-    description: "Confort soutenu pour un sommeil de qualité. Matelas PEB semi-dur, pour des nuits apaisantes.",
+    id: 2,
+    name: "Matelas PEB Semi-Dur",
+    description: "Confort soutenu pour un sommeil de qualité. Épaisseur 15cm et 20cm disponibles. À partir de 65.215 FCFA.",
     slug: "matelas-semi-dur",
   },
   {
-    id: 6,
-    name: "Matelas PEB dur médical",
-    description: "Soutien ferme pour un sommeil réparateur. Matelas PEB dur médical, pour un repos optimal.",
-    slug: "matelas-dur-medical",
+    id: 3,
+    name: "Matelas PEB Dur",
+    description: "Soutien ferme pour un sommeil réparateur. Épaisseur 15cm et 20cm disponibles. À partir de 81.515 FCFA.",
+    slug: "matelas-dur",
   },
 ];
 
@@ -81,10 +63,10 @@ export default function Products({ showTitle = true }: ProductsProps) {
           </div>
 
           {/* Right Column: Products Text Grid */}
-          <div className="lg:col-span-7 grid sm:grid-cols-2 gap-x-8 gap-y-12">
+          <div className="lg:col-span-7 grid gap-x-8 gap-y-12">
             {products.map((product) => (
-              <Link 
-                href={`/produits#${product.slug}`} 
+              <Link
+                href={`/produits#${product.slug}`}
                 key={product.id}
                 className="group block"
               >
