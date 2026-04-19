@@ -172,14 +172,14 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:contact@matelaspeb.bj"
+                  href="mailto:contact@matelaspeb-bj.com"
                   className="flex items-center gap-2 hover:text-white transition-colors"
                 >
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-indigo-400 flex-shrink-0">
                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                     <polyline points="22,6 12,13 2,6"/>
                   </svg>
-                  contact@matelaspeb.bj
+                  contact@matelaspeb-bj.com
                 </a>
               </li>
               <li className="flex items-center gap-2">

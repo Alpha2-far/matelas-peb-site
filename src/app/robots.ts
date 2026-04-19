@@ -10,6 +10,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/"],
       },
     ],
-    sitemap: "https://matelaspeb.bj/sitemap.xml",
+    sitemap: "https://matelaspeb-bj.com/sitemap.xml",
   };
 }

@@ -32,14 +32,14 @@ export const metadata: Metadata = {
   authors: [{ name: "Matelas PEB" }],
   creator: "Matelas PEB",
   publisher: "Matelas PEB",
-  metadataBase: new URL("https://matelaspeb.bj"),
+  metadataBase: new URL("https://matelaspeb-bj.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://matelaspeb.bj",
+    url: "https://matelaspeb-bj.com",
     siteName: "Matelas PEB",
     title: "Matelas PEB | Matelas Premium au Bénin - Livraison Gratuite",
     description: "Matelas PEB - Vente de matelas premium au Bénin. Qualité supérieure, prix compétitifs, livraison gratuite.",

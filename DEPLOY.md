@@ -27,7 +27,7 @@ Option B - Upload manuel:
 
 ### Étape 3: Configurer le domaine
 1. Dans le dashboard Vercel, allez dans "Settings" → "Domains"
-2. Ajoutez votre domaine: `matelaspeb.bj`
+2. Ajoutez votre domaine: `matelaspeb-bj.com`
 3. Suivez les instructions DNS
 
 ---
@@ -60,9 +60,9 @@ Le dossier `dist/` contient:
 
 ### 1. Google Search Console
 1. Allez sur https://search.google.com/search-console
-2. Ajoutez votre propriété: `matelaspeb.bj`
+2. Ajoutez votre propriété: `matelaspeb-bj.com`
 3. Vérifiez via la méthode DNS ou fichier HTML
-4. Soumettez le sitemap: `https://matelaspeb.bj/sitemap.xml`
+4. Soumettez le sitemap: `https://matelaspeb-bj.com/sitemap.xml`
 
 ### 2. Google Analytics
 1. Créez un compte sur https://analytics.google.com
@@ -81,7 +81,7 @@ Pour optimiser les commandes:
 
 ## 🎯 Prochaines étapes recommandées
 
-1. ✅ Acheter le domaine `matelaspeb.bj`
+1. ✅ Acheter le domaine `matelaspeb-bj.com`
 2. ✅ Configurer le domaine sur Vercel/Netlify
 3. ✅ Ajouter Google Analytics
 4. ✅ S'inscrire sur Google My Business
@@ -95,7 +95,7 @@ Pour optimiser les commandes:
 
 Si vous avez des questions:
 - WhatsApp: +229 67 61 18 44
-- Email: contact@matelaspeb.bj
+- Email: contact@matelaspeb-bj.com
 
 ---
 

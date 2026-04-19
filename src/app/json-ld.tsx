@@ -3,8 +3,8 @@ export default function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Matelas PEB",
-    url: "https://matelaspeb.bj",
-    logo: "https://matelaspeb.bj/logo.png",
+    url: "https://matelaspeb-bj.com",
+    logo: "https://matelaspeb-bj.com/logo.png",
     description:
       "Vente de matelas premium au Bénin. Livraison gratuite partout au pays.",
     address: {
@@ -28,9 +28,9 @@ export default function JsonLd() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Matelas PEB",
-    image: "https://matelaspeb.bj/og-image.jpg",
-    "@id": "https://matelaspeb.bj",
-    url: "https://matelaspeb.bj",
+    image: "https://matelaspeb-bj.com/og-image.jpg",
+    "@id": "https://matelaspeb-bj.com",
+    url: "https://matelaspeb-bj.com",
     telephone: "+229-XX-XX-XX-XX",
     address: {
       "@type": "PostalAddress",
@@ -62,7 +62,7 @@ export default function JsonLd() {
     "@context": "https://schema.org",
     "@type": "Product",
     name: "Matelas Premium Matelas PEB",
-    image: "https://matelaspeb.bj/og-image.jpg",
+    image: "https://matelaspeb-bj.com/og-image.jpg",
     description:
       "Matelas premium de qualité supérieure disponible au Bénin. Plusieurs modèles disponibles.",
     brand: {
@@ -75,7 +75,7 @@ export default function JsonLd() {
       highPrice: "150000",
       priceCurrency: "XOF",
       availability: "https://schema.org/InStock",
-      url: "https://matelaspeb.bj/produits",
+      url: "https://matelaspeb-bj.com/produits",
     },
     aggregateRating: {
       "@type": "AggregateRating",
