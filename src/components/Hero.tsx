@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -15,10 +16,12 @@ export default function Hero() {
       {/* Background Image with Darker Overlay for better contrast */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-black/50 z-10" />
-        <img
+        <Image
           src="https://dxm.dam.cofel.fr/api/wedia/dam/transform/qj4kecufsui9gig4x91k1tb5jw/out?t=resize&uuid=qj4kecufsui9gig4x91k1tb5jw&type=image&width=1920&height=1080"
           alt="Matelas premium dans une chambre élégante"
-          className="absolute inset-0 w-full h-full object-cover"
+          fill
+          className="object-cover"
+          priority
         />
       </div>
 

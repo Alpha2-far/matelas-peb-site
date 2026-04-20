@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
@@ -56,10 +57,11 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="relative rounded-2xl aspect-square overflow-hidden shadow-lg">
-                <img 
-                  src="https://matelaspebbenin.com/wp-content/uploads/2024/04/311172749_205229695213418_3367851764060428532_n.jpg" 
+                <Image
+                  src="https://matelaspebbenin.com/wp-content/uploads/2024/04/311172749_205229695213418_3367851764060428532_n.jpg"
                   alt="Boutique et équipe Matelas PEB"
-                  className="absolute inset-0 w-full h-full object-cover"
+                  fill
+                  className="object-cover"
                 />
               </div>
             </div>

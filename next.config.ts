@@ -2,7 +2,20 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "dxm.dam.cofel.fr",
+      },
+      {
+        protocol: "https",
+        hostname: "matelaspebbenin.com",
+      },
+      {
+        protocol: "https",
+        hostname: "boutiquematelaspeb.bj",
+      },
+    ],
   },
   trailingSlash: true,
 };

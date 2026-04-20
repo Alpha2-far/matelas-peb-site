@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const products = [
@@ -53,10 +54,11 @@ export default function Products({ showTitle = true }: ProductsProps) {
               <div className="absolute top-6 left-6 w-full h-full bg-[rgb(218,165,32)]/80 -z-10"></div>
               {/* Image */}
               <div className="bg-gray-200 aspect-[4/3] w-full overflow-hidden shadow-sm">
-                <img 
-                  src="https://matelaspebbenin.com/wp-content/uploads/2024/04/Oreillers2-1140x641-1.jpg" 
-                  alt="Lits et Matelas PEB" 
-                  className="w-full h-full object-cover"
+                <Image
+                  src="https://matelaspebbenin.com/wp-content/uploads/2024/04/Oreillers2-1140x641-1.jpg"
+                  alt="Lits et Matelas PEB"
+                  fill
+                  className="object-cover"
                 />
               </div>
             </div>
