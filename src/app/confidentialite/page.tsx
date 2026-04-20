@@ -44,7 +44,7 @@ des tiers. Nous ne vendons ni ne louons vos informations personnelles.
 
             <h2>Vos droits</h2>
             <p>
-              Conformément à la loi, vous disposez d'un droit d'accès, de modification et de
+              Conformément à la loi, vous disposez d&apos;un droit d&apos;accès, de modification et de
 suppression de vos données. Pour exercer ces droits, contactez-nous via WhatsApp
 au +229 67 61 18 44 ou au +229 01 66 20 01 20.
             </p>
@@ -52,7 +52,7 @@ au +229 67 61 18 44 ou au +229 01 66 20 01 20.
             <h2>Cookies</h2>
             <p>
               Notre site utilise des cookies techniques pour son bon fonctionnement. Aucun
-cookie publicitaire n'est utilisé.
+cookie publicitaire n&apos;est utilisé.
             </p>
           </div>
         </section>

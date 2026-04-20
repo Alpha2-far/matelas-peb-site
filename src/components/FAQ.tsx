@@ -86,7 +86,7 @@ export default function FAQ() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-gray-600 mb-4">Vous avez d'autres questions ?</p>
+          <p className="text-gray-600 mb-4">Vous avez d&apos;autres questions ?</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href="https://wa.me/22967611844"

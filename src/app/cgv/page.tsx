@@ -29,14 +29,14 @@ notre équipe.
             <h2>2. Prix et Paiement</h2>
             <p>
               Les prix sont indiqués en Francs CFA (FCFA) et sont susceptibles de modification
-sans préavis. Le paiement s'effectue à la livraison en espèces ou par Mobile Money
+sans préavis. Le paiement s&apos;effectue à la livraison en espèces ou par Mobile Money
 (MTN Mobile Money, Moov Money).
             </p>
 
             <h2>3. Livraison</h2>
             <p>
               La livraison est gratuite partout au Bénin. Les délais sont de 24-48h à Cotonou
-et de 2-5 jours pour les autres villes. Le client doit vérifier l'état du matelas à la
+et de 2-5 jours pour les autres villes. Le client doit vérifier l&apos;état du matelas à la
 réception.
             </p>
 
@@ -44,13 +44,13 @@ réception.
             <p>
               Nos matelas sont garantis contre tout défaut de fabrication : 5 ans pour les
 modèles standard, 10 ans pour les modèles Super Ordinaire et Dur Médical. La
-garantie ne couvre pas l'usure normale ni les dommages dus à une mauvaise
+garantie ne couvre pas l&apos;usure normale ni les dommages dus à une mauvaise
 utilisation.
             </p>
 
             <h2>5. Rétractation et Retour</h2>
             <p>
-              Le client dispose d'un délai de 7 jours à compter de la livraison pour signaler
+              Le client dispose d&apos;un délai de 7 jours à compter de la livraison pour signaler
 tout défaut. Le retour ou échange est possible uniquement en cas de défaut de
 fabrication constaté.
             </p>
