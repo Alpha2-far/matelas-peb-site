@@ -4,15 +4,12 @@ import { useState, useEffect } from "react";
 
 export default function WhatsAppButton() {
   const [visible, setVisible] = useState(false);
+  const [showOptions, setShowOptions] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setVisible(true), 2000);
     return () => clearTimeout(timer);
   }, []);
-
-  if (!visible) return null;
-
-  const [showOptions, setShowOptions] = useState(false);
 
   if (!visible) return null;
 
